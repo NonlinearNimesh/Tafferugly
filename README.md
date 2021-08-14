@@ -1,6 +1,6 @@
 # Tafferugly
 
-This repository Consist the implementation of Tafferugly Features using Python and Flask Framework.
+This repository Consist the implementation of Tafferugly (Which is nothing but a tool that is used for analysing tweets) Features using Python and Flask Framework.
 
 To Run This Project : <br/>
 <br/>
