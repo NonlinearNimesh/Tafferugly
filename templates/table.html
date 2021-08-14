@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Streamed Tweets Summary</title>
+
+<style>
+  table, th, td {font-size:10pt; border:1px solid black; border-collapse:collapse; text-align:center;}
+  th, td {padding: 5px;}
+  tr:hover {background-color: #87de9e;}
+  tr:first-child:hover {background-color: #87a1de}
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+  a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid blue;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: white;
+}
+
+</style>
+
+</head>
+
+<body style="background-color:powderblue;">
+
+{% for table in tables %}
+            {{titles[loop.index]}}
+            {{ table|safe }}
+{% endfor %}
+
+<p align="center"><a href="/display" target="_blank">Tweet Statistic</a></p>
+
+</body>
+</html>
