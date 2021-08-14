@@ -10,4 +10,4 @@ Then Activate the virtual environment ```conda activate name_of_the_environment`
 <br/>
 Then install the Dependencies using ```pip install requirements.txt``` <br/>
 <br/>
-Then Run ```python app.py```
+Then Run ```python main.py```
