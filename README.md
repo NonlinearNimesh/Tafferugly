@@ -11,3 +11,20 @@ Then Activate the virtual environment ```conda activate name_of_the_environment`
 Then install the Dependencies using ```pip install requirements.txt``` <br/>
 <br/>
 Then Run ```python main.py```
+
+# Metrics I have implemented
+
+1. MetricDefaultProfilePicture
+2. MetricDefaultTwitterProfile
+3. MetricDuplicateTweet(Metric)
+4. MetricRecentCreationDate(Metric)
+5. MetricFriendsFollowersRatio
+6. MetricUsernameWithRegex
+7. MetricCreationDateDistribution
+8. MetricTweetTimeDistribution
+
+# Metrics Yet to be Implemented
+1. MetricTweetRatio
+2. MetricGraphTweetNetwork
+3. MetricGraphCommunityNetwork
+4. MetricActivityPattern
